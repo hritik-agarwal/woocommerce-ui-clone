@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-link-padding {
+    @apply px-[24px] py-[28px];
+  }
+}
